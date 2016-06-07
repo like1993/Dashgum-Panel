@@ -7,10 +7,11 @@
         <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.2/jquery.min.js"></script>
         <script src="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js"></script>
         <link rel="stylesheet" href="font-awesome/css/font-awesome.css">
+        <link rel="stylesheet" href="css/style.css">
     </head>
     <body>
        <div id="wrapper">
-            <nav class="navbar navbar fixed-top">
+            <nav class="navbar navbar-inverse navbar fixed-top">
                 <div class="container-fluid">
                     <div class="navbar-header">
                         <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
@@ -19,7 +20,7 @@
                             <span class="icon-bar"></span>
                             <span class="icon-bar"></span>
                         </button>
-                        <a class="navbar-brand pull-left" href="#">DASHGUM</a>
+                        <a class="navbar-brand " href="#">DASHGUM FREE</a>
                     </div>
                     <ul class="nav navbar-nav navbar-left top-nav">
                         <li class="dropdown">
@@ -33,27 +34,48 @@
                                 <i class="fa fa-envelope-o"></i>
                                 <span class="badge bg-theme">5</span>
                             </a>
-                        </li>
+                        </li> 
                     </ul>
-                     <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
-                         <ul class="nav sidebar-nav side-nav">
-                             <li>
-                                <a href="#"><i class=""></i> Dashboard</a>
+                    <ul class="nav navbar-nav navbar-right top-nav">
+                        <li><span class="btn btn-info">Login</span></li>
+                    </ul>
+                    <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+                        <ul class="nav sidebar-nav side-nav" id="accordion">
+                            <p class="text-center">
+                                <a href="#"><img src="img/ui-sam.jpg" class="img-circle"></a>
+                            </p>
+                            <h5 class="text-center">Marcel Newman</h5>
+                            <li>
+                                <a href="#"><i class=""></i>Dashboard</a>
+                            </li>
+                            <li class="panel">
+                                <a href="#uiSubmenu"  data-toggle="collapse" data-parent="#accordion"><i class=""></i>UI Elements</a>
+                                <ul class="collapse" id="uiSubmenu">
+                                    <li><a href="#">General</a></li>
+                                </ul>
+                            </li>
+                            <li class="panel">
+                                <a href="#componetSubmenu"  data-toggle="collapse" data-parent="#accordion"><i class=""></i>Components</a>
+                                <ul class="collapse" id="componetSubmenu">
+                                    <li><a href="#">Calendar</a></li>
+                                    <li><a href="#">ToDo List</a></li>
+                                </ul>
+                            </li>
+                            <li class="panel">
+                                <a href="#extraSubmenu"  data-toggle="collapse" data-parent="#accordion"><i class=""></i>Extra Pages</a>
+                                <ul class="collapse" id="extraSubmenu">
+                                    <li><a href="#">Login</a></li>
+                                    <li><a href="#">Lock Screen</a></li>
+                                </ul>
+                            </li>
+                            <li class="panel">
+                                <a href="#formSubmenu"  data-toggle="collapse" data-parent="#accordion"><i class=""></i>Form</a>
+                                <ul class="collapse" id="formSubmenu">
+                                    <li><a href="#">Form Component</a></li>
+                                </ul>
                             </li>
                             <li>
-                                <a href="#"><i class=""></i> UI Elements</a>
-                            </li>
-                            <li>
-                                <a href="#"><i class=""></i> Components</a>
-                            </li>
-                            <li>
-                                <a href="#"><i class=""></i>  Extra Pages</a>
-                            </li>
-                            <li>
-                                <a href="#"><i class=""></i>  Form</a>
-                            </li>
-                            <li>
-                                <a href="#"><i class=""></i>  Data Tables</a>
+                                <a href="#"><i class=""></i>Data Tables</a>
                             </li>
                         </ul>
                     </div>
