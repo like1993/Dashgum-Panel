@@ -1,88 +1,48 @@
 <html>
-    <head>
-        <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
-        <meta name="viewport" content="width=device-width, initial-scale=1" />
-        <title>General</title>
-        <link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css">
-        <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.2/jquery.min.js"></script>
-        <script src="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js"></script>
-        <link rel="stylesheet" href="font-awesome/css/font-awesome.css">
-        <link rel="stylesheet" href="css/style.css">
-    </head>
-    <body>
-       <div id="wrapper">
-            <nav class="navbar  navbar fixed-top">
-                <div class="container-fluid">
-                    <div class="navbar-header">
-                        <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
-                            <span class="sr-only">Toggle navigation</span>
-                            <span class="icon-bar"></span>
-                            <span class="icon-bar"></span>
-                            <span class="icon-bar"></span>
-                        </button>
-                        <a class="navbar-brand" href="#">DASHGUM FREE</a>
-                    </div>
-                    <ul class="nav navbar-nav navbar-left top-nav">
-                        <li class="dropdown">
-                            <a data-toggle="dropdown" class="dropdown-toggle" href="index.html#">
-                                <i class="fa fa-tasks"></i>
-                                <span class="badge bg-theme">4</span>
-                            </a>
-                        </li>
-                        <li class="dropdown">
-                            <a data-toggle="dropdown" class="dropdown-toggle" href="index.html#">
-                                <i class="fa fa-envelope-o"></i>
-                                <span class="badge bg-theme">5</span>
-                            </a>
-                        </li> 
-                    </ul>
-                    <ul class="nav navbar-nav navbar-right top-nav">
-                        <li><span class="btn btn-info">Login</span></li>
-                    </ul>
-                    <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
-                        <ul class="nav sidebar-nav side-nav" id="accordion">
-                            <p class="text-center">
-                                <a href="#"><img src="img/ui-sam.jpg" class="img-circle"></a>
-                            </p>
-                            <h5 class="text-center">Marcel Newman</h5>
-                            <li>
-                                <a href="#"><i class=""></i>Dashboard</a>
-                            </li>
-                            <li class="panel">
-                                <a href="#uiSubmenu"  data-toggle="collapse" data-parent="#accordion"><i class=""></i>UI Elements</a>
-                                <ul class="collapse" id="uiSubmenu">
-                                    <li><a href="#">General</a></li>
-                                </ul>
-                            </li>
-                            <li class="panel">
-                                <a href="#componetSubmenu"  data-toggle="collapse" data-parent="#accordion"><i class=""></i>Components</a>
-                                <ul class="collapse" id="componetSubmenu">
-                                    <li><a href="#">Calendar</a></li>
-                                    <li><a href="#">ToDo List</a></li>
-                                </ul>
-                            </li>
-                            <li class="panel">
-                                <a href="#extraSubmenu"  data-toggle="collapse" data-parent="#accordion"><i class=""></i>Extra Pages</a>
-                                <ul class="collapse" id="extraSubmenu">
-                                    <li><a href="#">Login</a></li>
-                                    <li><a href="#">Lock Screen</a></li>
-                                </ul>
-                            </li>
-                            <li class="panel">
-                                <a href="#formSubmenu"  data-toggle="collapse" data-parent="#accordion"><i class=""></i>Form</a>
-                                <ul class="collapse" id="formSubmenu">
-                                    <li><a href="#">Form Component</a></li>
-                                </ul>
-                            </li>
-                            <li>
-                                <a href="#"><i class=""></i>Data Tables</a>
-                            </li>
-                        </ul>
-                    </div>
+<head>
+  <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>General</title>
+  <link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.2/jquery.min.js"></script>
+  <script src="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js"></script>
+  <link rel="stylesheet" href="font-awesome/css/font-awesome.css">
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+  <div class="modal fade" id="login-modal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true" style="display: none;">
+    <div class="modal-dialog">
+      <div class="modal-content">
+        <div class="modal-header signIn" align="center">
+          <h3>SIGN IN NOW</h3>
+        </div>
+        <div id="div-forms">
+          <!-- Form -->
+          <form id="login-form" class="form-login">
+            <div class="modal-body">
+              <input id="login_username" class="form-control" type="text" placeholder="User ID" required><br>
+              <input id="login_password" class="form-control" type="password" placeholder="Password" required><br>
+              <div>
+                <a href="target_blank">Forgot Password?</a>
+              </div>
+            </div>
+            <div class="modal-footer">
+              <div>
+                <button type="submit" class="btn btn-primary btn-lg btn-block"><span class="glyphicon glyphicon-lock"></span> Sign In</button>
+                <hr>
+                <div class="login-social-link centered">
+                  <p>or you can sign in via your social network</p>
+                  <button class="btn btn-facebook" type="submit"><i class="fa fa-facebook"></i> Facebook</button>
+                  <button class="btn btn-twitter" type="submit"><i class="fa fa-twitter"></i> Twitter</button>
                 </div>
-            </nav>
+                <p>Don't have an account yet?</p>
+                <a href="target_blank"> Create one</a>
+              </div>
+            </div>
+          </form>
         </div>
-        <div class="page-wrapper"><!-- write main content here!-->
-        </div>
-    </body>
+      </div>
+    </div>
+  </div>
+</body>
 </html>
