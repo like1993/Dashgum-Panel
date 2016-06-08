@@ -6,7 +6,7 @@
     color: aliceblue;
 }
 .navbar-toggle span{
-    
+
     border: 1px solid white;
 }
 /* Top Navigation */
@@ -120,7 +120,7 @@
 }
 
 @media(min-width:768px) {
-   
+
 
     #page-wrapper {
         padding: 10px;
@@ -132,3 +132,71 @@ body{
     color: aliceblue;
 }
 
+/*calendar Style*/
+div.external-event.label.label-theme{
+  z-index: auto;
+  left: 0px;
+  top: 0px;
+  background-color: #68dff0;
+}
+div#external-events.external-event.label.label-info{
+  z-index: auto;
+  left: 0px;
+  top: 0px;
+}
+div#external-events.external-event.label.label-success{
+  z-index: auto;
+  left: 0px;
+  top: 0px;
+}
+.eventComponent{
+  position: relative;
+}
+div#external-events.external-event.label{
+  background-color: #68dff0;
+}
+
+.external-event {
+  display: inline-block !important;
+  margin-bottom: 7px !important;
+  margin-right: 2px !important;
+  padding: 10px;}
+
+  .componentsBgColor{
+    background-color: #f2f2f2;
+    color: #797979;
+  }
+  div.text-center{
+    background: #68dff0;
+    color: #fff;
+    padding: 10px 0;
+  }
+
+  hr {
+    margin-top: 20px;
+    margin-bottom: 20px;
+    border: 0;
+    border-top: 1px solid #797979;
+  }
+  div.row.photoPosition{
+    padding-bottom: 10px;
+  }
+/*Extrapages*/
+  .white-panel {
+      text-align: center;
+      background: #ffffff;
+      color: #ccd1d9;
+  }
+  .pn {
+    height: 250px;
+    box-shadow: 0 2px 1px rgba(0, 0, 0, 0.2);}
+
+    .white-panel i {
+        color: #68dff0;
+        padding-right: 4px;
+        font-size: 14px;
+    }
+
+     a:hover{
+       text-decoration: none;
+     }
