@@ -223,5 +223,5 @@ a:hover {
   outline: 0;
   outline: thin dotted \9;
   -moz-box-shadow: 0 0 8px rgba(255,0,0,.8);
-  box-shadow: 0 0 8px rgba(82,168,236,.6) !important;
+  box-shadow: 0 0 8px rgba(255,0,0,.8)) !important;
 }
