@@ -1,30 +1,30 @@
 .navbar{
-    background-color: orange;
+  background-color: orange;
 }
 
 .navbar-brand{
-    color: aliceblue;
+  color: aliceblue;
 }
 .navbar-toggle span{
 
-    border: 1px solid white;
+  border: 1px solid white;
 }
 /* Top Navigation */
 
 .top-nav {
-    padding: 0 15px;
+  padding: 0 15px;
 }
 
 .top-nav>li {
-    display: inline-block;
-    float: left;
+  display: inline-block;
+  float: left;
 }
 
 .top-nav>li>a {
-    padding-top: 15px;
-    padding-bottom: 15px;
-    line-height: 20px;
-    color: #999;
+  padding-top: 15px;
+  padding-bottom: 15px;
+  line-height: 20px;
+  color: #999;
 }
 
 .top-nav>li>a:hover,
@@ -32,104 +32,104 @@
 .top-nav>.open>a,
 .top-nav>.open>a:hover,
 .top-nav>.open>a:focus {
-    color: #fff;
-    background-color: transparent;
+  color: #fff;
+  background-color: transparent;
 }
 
 .top-nav>.open>.dropdown-menu {
-    float: left;
-    position: absolute;
-    margin-top: 0;
-    border: 1px solid rgba(0,0,0,.15);
-    border-top-left-radius: 0;
-    border-top-right-radius: 0;
-    background-color: #fff;
-    -webkit-box-shadow: 0 6px 12px rgba(0,0,0,.175);
-    box-shadow: 0 6px 12px rgba(0,0,0,.175);
+  float: left;
+  position: absolute;
+  margin-top: 0;
+  border: 1px solid rgba(0,0,0,.15);
+  border-top-left-radius: 0;
+  border-top-right-radius: 0;
+  background-color: #fff;
+  -webkit-box-shadow: 0 6px 12px rgba(0,0,0,.175);
+  box-shadow: 0 6px 12px rgba(0,0,0,.175);
 }
 
 /* Side Navigation */
 .side-nav {
-    background-color: rgb(20,30,38);
+  background-color: rgb(20,30,38);
 }
 @media(min-width:768px) {
-    .side-nav {
-        position: fixed;
-        top: 51px;
-        left: 225px;
-        width: 225px;
-        margin-left: -225px;
-        border: none;
-        border-radius: 0;
-        overflow-y: auto;
-        background-color: rgb(20,30,38);
-        bottom: 0;
-        overflow-x: hidden;
-        padding-bottom: 40px;
-    }
+  .side-nav {
+    position: fixed;
+    top: 51px;
+    left: 225px;
+    width: 225px;
+    margin-left: -225px;
+    border: none;
+    border-radius: 0;
+    overflow-y: auto;
+    background-color: rgb(20,30,38);
+    bottom: 0;
+    overflow-x: hidden;
+    padding-bottom: 40px;
+  }
 
-    .side-nav>li>a {
-        width: 225px;
-    }
+  .side-nav>li>a {
+    width: 225px;
+  }
 
-    .side-nav li a:hover{
-        background-color: aqua !important;
-    }
-    .side-nav li a:focus {
-        outline: none;
-        background-color: rgb(20,30,38) !important;
-    }
-    .side-nav li a:active{
-        background-color: aqua !important;
-        color: aliceblue !important;
-    }
-    .side-nav li a{
-        color: aliceblue;
-    }
+  .side-nav li a:hover{
+    background-color: aqua !important;
+  }
+  .side-nav li a:focus {
+    outline: none;
+    background-color: rgb(20,30,38) !important;
+  }
+  .side-nav li a:active{
+    background-color: aqua !important;
+    color: aliceblue !important;
+  }
+  .side-nav li a{
+    color: aliceblue;
+  }
 }
 
 .side-nav>li>ul {
-    padding: 0;
+  padding: 0;
 }
 
 .side-nav>li>ul>li>a {
-    display: block;
-    padding: 10px 15px 10px 38px;
-    text-decoration: none;
-    color: #999;
+  display: block;
+  padding: 10px 15px 10px 38px;
+  text-decoration: none;
+  color: #999;
 }
 
 .side-nav>li>ul>li>a:hover {
-    color: #fff;
+  color: #fff;
 }
 .panel{
-    background-color:transparent;
-    margin-bottom: 0;
-    border: 0;
-    border-radius: 0;
+  background-color:transparent;
+  margin-bottom: 0;
+  border: 0;
+  border-radius: 0;
 }
 
 #wrapper {
-    padding-left: 0;
+  padding-left: 0;
 }
 
 #page-wrapper {
-    width: 100%;
-    padding: 0;
-    background-color: #fff;
+  width: 100%;
+  padding: 0;
+  background-color: #fff;
 }
 
 @media(min-width:768px) {
 
 
-    #page-wrapper {
-        padding: 10px;
-        padding-left: 225px;
-    }
+  #page-wrapper {
+    padding: 10px;
+    padding-left: 225px;
+  }
 }
 
 body{
-    color: aliceblue;
+  color: aliceblue;
 }
 
 /*calendar Style*/
@@ -181,22 +181,22 @@ div#external-events.external-event.label{
   div.row.photoPosition{
     padding-bottom: 10px;
   }
-/*Extrapages*/
+  /*Extrapages*/
   .white-panel {
-      text-align: center;
-      background: #ffffff;
-      color: #ccd1d9;
+    text-align: center;
+    background: #ffffff;
+    color: #ccd1d9;
   }
   .pn {
     height: 250px;
     box-shadow: 0 2px 1px rgba(0, 0, 0, 0.2);}
 
     .white-panel i {
-        color: #68dff0;
-        padding-right: 4px;
-        font-size: 14px;
+      color: #68dff0;
+      padding-right: 4px;
+      font-size: 14px;
     }
 
-     a:hover{
-       text-decoration: none;
-     }
+    a:hover{
+      text-decoration: none;
+    }
