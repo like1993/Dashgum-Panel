@@ -118,15 +118,15 @@
   padding-left: 0;
 }
 
-#page-wrapper {
+.page-wrapper{
   width: 100%;
   padding: 0;
   background-color: #fff;
-  padding-left: 225px;
+  
 }
 
 @media(min-width:768px) {
-  #page-wrapper {
+  .page-wrapper {
     padding: 10px;
     padding-left: 225px;
   }
