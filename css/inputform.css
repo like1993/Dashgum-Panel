@@ -1,0 +1,57 @@
+
+/*ALBANO - STARTS OF INPUT FORM */
+.contact-details{
+	padding-top: 80px;
+	padding-bottom: 50px;
+	padding-left: 20px;
+	padding-right: 20px;
+	}
+	.contact-text{
+		font-weight: 900 !important;
+	  font-size: 35px !important;
+		color:#5cb85c;
+		text-align: center !important;
+		opacity: 0.9;
+	}
+.border-of-form {
+	font-size: 16px !important;
+	height: 45px !important;
+	background-image: none !important;
+	box-shadow: none !important;
+}
+    textarea.form-control{
+			height: 150px !important;
+		}
+
+.title-of-form-details{
+	color: #2E69F1;
+}
+
+.fileUpload {
+    position: relative;
+    overflow: hidden;
+    margin: 10px;
+}
+.fileUpload input.upload {
+    position: absolute;
+    top: 0;
+    right: 0;
+    margin: 0;
+    padding: 0;
+    font-size: 20px;
+    cursor: pointer;
+    opacity: 0;
+    filter: alpha(opacity=0);
+}
+
+.btn-primary {
+    color: #fff;
+    background-color: #5cb85c !important;
+    border-color: #5cb85c !important;
+	}
+	.btn-primary:hover{
+		background-color: #337ab7 !important;
+		border-color: #337ab7 !important;
+	}
+
+	/*ALBANO - ENDS OF INPUT FORM */
