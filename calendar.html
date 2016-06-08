@@ -1,88 +1,133 @@
 <html>
-    <head>
-        <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
-        <meta name="viewport" content="width=device-width, initial-scale=1" />
-        <title>Calendar</title>
-        <link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css">
-        <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.2/jquery.min.js"></script>
-        <script src="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js"></script>
-        <link rel="stylesheet" href="font-awesome/css/font-awesome.css">
-        <link rel="stylesheet" href="css/style.css">
-    </head>
-    <body>
-       <div id="wrapper">
-            <nav class="navbar  navbar fixed-top">
-                <div class="container-fluid">
-                    <div class="navbar-header">
-                        <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
-                            <span class="sr-only">Toggle navigation</span>
-                            <span class="icon-bar"></span>
-                            <span class="icon-bar"></span>
-                            <span class="icon-bar"></span>
-                        </button>
-                        <a class="navbar-brand" href="#">DASHGUM FREE</a>
-                    </div>
-                    <ul class="nav navbar-nav navbar-left top-nav">
-                        <li class="dropdown">
-                            <a data-toggle="dropdown" class="dropdown-toggle" href="index.html#">
-                                <i class="fa fa-tasks"></i>
-                                <span class="badge bg-theme">4</span>
-                            </a>
-                        </li>
-                        <li class="dropdown">
-                            <a data-toggle="dropdown" class="dropdown-toggle" href="index.html#">
-                                <i class="fa fa-envelope-o"></i>
-                                <span class="badge bg-theme">5</span>
-                            </a>
-                        </li> 
-                    </ul>
-                    <ul class="nav navbar-nav navbar-right top-nav">
-                        <li><span class="btn btn-info">Login</span></li>
-                    </ul>
-                    <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
-                        <ul class="nav sidebar-nav side-nav" id="accordion">
-                            <p class="text-center">
-                                <a href="#"><img src="img/ui-sam.jpg" class="img-circle"></a>
-                            </p>
-                            <h5 class="text-center">Marcel Newman</h5>
-                            <li>
-                                <a href="#"><i class=""></i>Dashboard</a>
-                            </li>
-                            <li class="panel">
-                                <a href="#uiSubmenu"  data-toggle="collapse" data-parent="#accordion"><i class=""></i>UI Elements</a>
-                                <ul class="collapse" id="uiSubmenu">
-                                    <li><a href="general.html">General</a></li>
-                                </ul>
-                            </li>
-                            <li class="panel">
-                                <a href="#componetSubmenu"  data-toggle="collapse" data-parent="#accordion"><i class=""></i>Components</a>
-                                <ul class="collapse" id="componetSubmenu">
-                                    <li><a href="calendar.html">Calendar</a></li>
-                                    <li><a href="todolist.html">ToDo List</a></li>
-                                </ul>
-                            </li>
-                            <li class="panel">
-                                <a href="#extraSubmenu"  data-toggle="collapse" data-parent="#accordion"><i class=""></i>Extra Pages</a>
-                                <ul class="collapse" id="extraSubmenu">
-                                    <li><a href="login.html">Login</a></li>
-                                    <li><a href="lockscreen.html">Lock Screen</a></li>
-                                </ul>
-                            </li>
-                            <li class="panel">
-                                <a href="#formSubmenu"  data-toggle="collapse" data-parent="#accordion"><i class=""></i>Form</a>
-                                <ul class="collapse" id="formSubmenu">
-                                    <li><a href="formcomponent.html">Form Component</a></li>
-                                </ul>
-                            </li>
-                            <li>
-                                <a href="datatables.html"><i class=""></i>Data Tables</a>
-                            </li>
-                        </ul>
-                    </div>
-                </div>
-            </nav>
+<head>
+  <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Calendar</title>
+  <link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.2/jquery.min.js"></script>
+  <script src="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js"></script>
+  <link rel="stylesheet" href="font-awesome/css/font-awesome.css">
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+  <div id="wrapper">
+    <nav class="navbar  navbar fixed-top">
+      <div class="container-fluid">
+        <div class="navbar-header">
+          <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
+            <span class="sr-only">Toggle navigation</span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+          </button>
+          <a class="navbar-brand" href="#">DASHGUM FREE</a>
         </div>
-        <div class="page-wrapper"><!-- write main content here!-->
+        <ul class="nav navbar-nav navbar-left top-nav">
+          <li class="dropdown">
+            <a data-toggle="dropdown" class="dropdown-toggle" href="index.html#">
+              <i class="fa fa-tasks"></i>
+              <span class="badge bg-theme">4</span>
+            </a>
+          </li>
+          <li class="dropdown">
+            <a data-toggle="dropdown" class="dropdown-toggle" href="index.html#">
+              <i class="fa fa-envelope-o"></i>
+              <span class="badge bg-theme">5</span>
+            </a>
+          </li>
+        </ul>
+        <ul class="nav navbar-nav navbar-right top-nav">
+          <li><span class="btn btn-info">Login</span></li>
+        </ul>
+        <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+          <ul class="nav sidebar-nav side-nav" id="accordion">
+            <p class="text-center">
+              <a href="#"><img src="img/ui-sam.jpg" class="img-circle"></a>
+            </p>
+            <h5 class="text-center">Marcel Newman</h5>
+            <li>
+              <a href="#"><i class=""></i>Dashboard</a>
+            </li>
+            <li class="panel">
+              <a href="#uiSubmenu"  data-toggle="collapse" data-parent="#accordion"><i class=""></i>UI Elements</a>
+              <ul class="collapse" id="uiSubmenu">
+                <li><a href="general.html">General</a></li>
+              </ul>
+            </li>
+            <li class="panel">
+              <a href="#componetSubmenu"  data-toggle="collapse" data-parent="#accordion"><i class=""></i>Components</a>
+              <ul class="collapse" id="componetSubmenu">
+                <li><a href="calendar.html">Calendar</a></li>
+                <li><a href="todolist.html">ToDo List</a></li>
+              </ul>
+            </li>
+            <li class="panel">
+              <a href="#extraSubmenu"  data-toggle="collapse" data-parent="#accordion"><i class=""></i>Extra Pages</a>
+              <ul class="collapse" id="extraSubmenu">
+                <li><a href="login.html">Login</a></li>
+                <li><a href="lockscreen.html">Lock Screen</a></li>
+              </ul>
+            </li>
+            <li class="panel">
+              <a href="#formSubmenu"  data-toggle="collapse" data-parent="#accordion"><i class=""></i>Form</a>
+              <ul class="collapse" id="formSubmenu">
+                <li><a href="formcomponent.html">Form Component</a></li>
+              </ul>
+            </li>
+            <li>
+              <a href="datatables.html"><i class=""></i>Data Tables</a>
+            </li>
+          </ul>
         </div>
-    </body>
+      </div>
+    </nav>
+  </div>
+  <div class="page-wrapper"><!-- write main content here!-->
+    <div class="col-sm-10 col-md-10 componentsBgColor">
+      <div class="row">
+        <div class="col-sm-12 col-md-12">
+          <h3><i class="fa fa-angle-right"></i> Calendar</h3>
+        </div>
+      </div>
+      <div class="row">
+        <div class="col-sm-3 col-md-3">
+          <h4><i class="fa fa-angle-right"></i> Draggable Events</h4>
+          <div class="eventComponents">
+            <div class="external-event label label-theme">My Event 1</div>
+            <div class="external-event label label-success">My Event 2</div>
+            <div class="external-event label label-info">My Event 3</div>
+            <div class="external-event label label-warning">My Event 4</div>
+            <div class="external-event label label-danger">My Event 5</div>
+            <div class="external-event label label-default">My Event 6</div>
+            <div class="external-event label label-theme ">My Event 7</div>
+            <div class="external-event label label-info" >My Event 8</div>
+            <div class="external-event label label-success">My Event 9</div>
+            <hr>
+            <p class="drop-after">
+              <input type="checkbox" id="drop-remove">
+              Remove After Drop
+            </p>
+          </div>
+        </div>
+        <div class="col-sm-9 col-md-9">
+          <div class="panel panel-default">
+            <div class="panel-body">
+              <div id="calendar" class="has-toolbar"></div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="row">
+        <footer class="site-footer">
+          <div class="text-center">
+            2014 - Alvarez.is
+            <a href="calendar.html#" class="go-top">
+              <i class="fa fa-angle-up"></i>
+            </a>
+          </div>
+        </footer>
+      </div>
+    </div>
+  </div>
+</body>
 </html>

@@ -6,7 +6,7 @@
     color: aliceblue;
 }
 .navbar-toggle span{
-    
+
     border: 1px solid white;
 }
 /* Top Navigation */
@@ -120,7 +120,7 @@
 }
 
 @media(min-width:768px) {
-   
+
 
     #page-wrapper {
         padding: 10px;
@@ -129,6 +129,5 @@
 }
 
 body{
-    color: aliceblue;
+    color: black;
 }
-
