@@ -117,6 +117,7 @@
     width: 100%;
     padding: 0;
     background-color: #fff;
+     padding-left: 225px;
 }
 
 @media(min-width:768px) {
@@ -129,6 +130,6 @@
 }
 
 body{
-    color: aliceblue;
+    color: black; /* changed color of body text*/
 }
 
