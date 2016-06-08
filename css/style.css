@@ -213,3 +213,7 @@ div.row.photoPosition {
 a:hover {
   text-decoration: none;
 }
+/*rounded input form*/
+.round-form{
+   border-radius: 30px 30px 30px 30px;
+}
