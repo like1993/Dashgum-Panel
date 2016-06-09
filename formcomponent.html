@@ -1,128 +1,266 @@
 <html>
-  <head>
-    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1" />
-    <title>Form Component</title>
-    <link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css">
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.2/jquery.min.js"></script>
-    <script src="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js"></script>
-    <link rel="stylesheet" href="font-awesome/css/font-awesome.css">
-    <link rel="stylesheet" href="css/style.css">
-  </head>
-  <body>
-    <div id="wrapper">
-      <nav class="navbar  navbar fixed-top">
-              <div class="container-fluid">
-                <div class="navbar-header">
-                  <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
-                    <span class="sr-only">Toggle navigation</span>
-                    <span class="icon-bar"></span>
-                    <span class="icon-bar"></span>
-                    <span class="icon-bar"></span>
-                  </button>
-                  <a class="navbar-brand" href="#">DASHGUM FREE</a>
-                </div>
-                <ul class="nav navbar-nav navbar-left top-nav">
-                  <li class="dropdown">
-                    <a data-toggle="dropdown" class="dropdown-toggle" href="index.html#">
-                      <i class="fa fa-tasks"></i>
-                      <span class="badge bg-theme">4</span>
-                    </a>
-                  </li>
-                    <li class="dropdown">
-                        <a data-toggle="dropdown" class="dropdown-toggle" href="index.html#">
-                            <i class="fa fa-envelope-o"></i>
-                            <span class="badge bg-theme">5</span>
-                        </a>
-                    </li>
-                </ul>
-                <ul class="nav navbar-nav navbar-right top-nav">
-                  <li><span class="btn btn-info">Login</span></li>
-                </ul>
-                  <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
-                      <ul class="nav sidebar-nav side-nav" id="accordion">
-                        <p class="text-center">
-                          <a href="#"><img src="img/ui-sam.jpg" class="img-circle"></a>
-                        </p>
-                        <h5 class="text-center">Marcel Newman</h5>
-                        <li>
-                          <a href="index.html"><i class=""></i>Dashboard</a>
-                        </li>
-                        <li class="panel">
-                          <a href="#uiSubmenu"  data-toggle="collapse" data-parent="#accordion"><i class=""></i>UI Elements</a>
-                          <ul class="collapse" id="uiSubmenu">
-                            <li><a href="general.html">General</a></li>
-                          </ul>
-                        </li>
-                        <li class="panel">
-                          <a href="#componetSubmenu"  data-toggle="collapse" data-parent="#accordion"><i class=""></i>Components</a>
-                          <ul class="collapse" id="componetSubmenu">
-                            <li><a href="calendar.html">Calendar</a></li>
-                            <li><a href="todolist.html">ToDo List</a></li>
-                          </ul>
-                        </li>
-                          <li class="panel">
-                              <a href="#extraSubmenu"  data-toggle="collapse" data-parent="#accordion"><i class=""></i>Extra Pages</a>
-                              <ul class="collapse" id="extraSubmenu">
-                                  <li><a href="login.html">Login</a></li>
-                                  <li><a href="lockscreen.html">Lock Screen</a></li>
-                              </ul>
-                          </li>
-                          <li class="panel">
-                              <a href="#formSubmenu"  data-toggle="collapse" data-parent="#accordion"><i class=""></i>Form</a>
-                              <ul class="collapse" id="formSubmenu">
-                                  <li><a href="formcomponent.html">Form Component</a></li>
-                              </ul>
-                          </li>
-                          <li>
-                              <a href="datatables.html"><i class=""></i>Data Tables</a>
-                          </li>
-                      </ul>
-                  </div>
-              </div>
-          </nav>
-    </div>
-      <div class="page-wrapper"><!-- write main content here!-->
-          <div class="container-fluid">
-              <div class="row">
-                  <div class="col-md-12">
-                      <div class="panel">
-                          <div class="panel-body">
-                              <form class="form-horizontal">
-                                  <h4>Form element</h4>
-                                  <div class="form-group">
-                                  <label for="inputDefault" class="col-sm-2 control-label">Default</label>
-                                      <div class="col-sm-10">
-                                          <input type="text" class="form-control" id="inputDefault" >
-                                      </div>
-                                      <hr>
-                                  </div>
-                                  <div class="form-group">
-                                  <label for="inputHelp" class="col-sm-2 control-label">Help Text</label>
-                                      <div class="col-sm-10">
-                                        <input type="text" class="form-control" id="inputHelp">
-                                        <small>A block of text in e new line</small>
-                                      </div>
-                                      <hr>
-                                  </div>
-                                  <div class="form-group">
-                                  <label for="inputRounder" class="col-sm-2 control-label">Rounder</label>
-                                      <div class="col-sm-10">
-                                          <input type="text" class="form-control round-form" id="inputRounder">
-                                      </div>
-                                  </div>
-                                <div class="form-group">
-                                  <label for="inputFocused" class="col-sm-2 control-label">Focused</label>
-                                  <div class="col-sm-10">
-                                    <input type="text" class="form-control" id="inputFocused" placeholder="this is focused">
-                                  </div>
-                                </div>
-                              </form>
-                          </div>
-                      </div>
-                  </div>
-              </div> 
-          </div>
+<head>
+  <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Form Component</title>
+  <link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.2/jquery.min.js"></script>
+  <script src="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js"></script>
+  <link rel="stylesheet" href="font-awesome/css/font-awesome.css">
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+  <div id="wrapper">
+    <nav class="navbar  navbar fixed-top">
+      <div class="container-fluid">
+        <div class="navbar-header">
+          <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
+            <span class="sr-only">Toggle navigation</span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+          </button>
+          <a class="navbar-brand" href="#">DASHGUM FREE</a>
+        </div>
+        <ul class="nav navbar-nav navbar-left top-nav">
+          <li class="dropdown">
+            <a data-toggle="dropdown" class="dropdown-toggle" href="index.html#">
+              <i class="fa fa-tasks"></i>
+              <span class="badge bg-theme">4</span>
+            </a>
+          </li>
+          <li class="dropdown">
+            <a data-toggle="dropdown" class="dropdown-toggle" href="index.html#">
+              <i class="fa fa-envelope-o"></i>
+              <span class="badge bg-theme">5</span>
+            </a>
+          </li>
+        </ul>
+        <ul class="nav navbar-nav navbar-right top-nav">
+          <li><span class="btn btn-info">Login</span></li>
+        </ul>
+        <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+          <ul class="nav sidebar-nav side-nav" id="accordion">
+            <p class="text-center">
+              <a href="#"><img src="img/ui-sam.jpg" class="img-circle"></a>
+            </p>
+            <h5 class="text-center">Marcel Newman</h5>
+            <li>
+              <a href="#"><i class=""></i>Dashboard</a>
+            </li>
+            <li class="panel">
+              <a href="#uiSubmenu"  data-toggle="collapse" data-parent="#accordion"><i class=""></i>UI Elements</a>
+              <ul class="collapse" id="uiSubmenu">
+                <li><a href="general.html">General</a></li>
+              </ul>
+            </li>
+            <li class="panel">
+              <a href="#componetSubmenu"  data-toggle="collapse" data-parent="#accordion"><i class=""></i>Components</a>
+              <ul class="collapse" id="componetSubmenu">
+                <li><a href="calendar.html">Calendar</a></li>
+                <li><a href="todolist.html">ToDo List</a></li>
+              </ul>
+            </li>
+            <li class="panel">
+              <a href="#extraSubmenu"  data-toggle="collapse" data-parent="#accordion"><i class=""></i>Extra Pages</a>
+              <ul class="collapse" id="extraSubmenu">
+                <li><a href="login.html">Login</a></li>
+                <li><a href="lockscreen.html">Lock Screen</a></li>
+              </ul>
+            </li>
+            <li class="panel">
+              <a href="#formSubmenu"  data-toggle="collapse" data-parent="#accordion"><i class=""></i>Form</a>
+              <ul class="collapse" id="formSubmenu">
+                <li><a href="formcomponent.html">Form Component</a></li>
+              </ul>
+            </li>
+            <li>
+              <a href="datatables.html"><i class=""></i>Data Tables</a>
+            </li>
+          </ul>
+        </div>
       </div>
-  </body>
+    </nav>
+  </div>
+  <div class="page-wrapper"><!-- write main content here!-->
+    <div class="container-fluid">
+      <div class="row">
+        <div class="col-md-12">
+          <div class="panel">
+            <div class="panel-body">
+              <h4><i class="fa fa-angle-right"></i>Form element</h4>
+              <form class="form-horizontal">
+                <div class="form-group">
+                  <label for="inputDefault" class="col-md-2 control-label">Default</label>
+                  <div class="col-md-10">
+                    <input type="text" class="form-control" id="inputDefault" >
+                  </div>
+                  <hr>
+                </div>
+                <div class="form-group">
+                  <label for="inputHelp" class="col-md-2 control-label">Help Text</label>
+                  <div class="col-md-10">
+                    <input type="text" class="form-control" id="inputHelp">
+                    <small>A block of text in e new line</small>
+                  </div>
+                  <hr>
+                </div>
+                <div class="form-group">
+                  <label for="inputRounder" class="col-md-2 control-label">Rounder</label>
+                  <div class="col-md-10">
+                    <input type="text" class="form-control round-form" id="inputRounder">
+                  </div>
+                </div>
+                <div class="form-group">
+                  <label for="inputFocused" class="col-md-2 control-label">Focused</label>
+                  <div class="col-md-10">
+                    <input type="text" class="form-control" id="inputFocused" placeholder="this is focused">
+                  </div>
+                </div>
+                <hr>
+                <div class="form-group">
+                  <label for="inputDisabled" class="col-md-2 control-label">Disabled</label>
+                  <div class="col-md-10">
+                    <fieldset disabled>
+                      <input type="text" class="form-control" id="inputDisabled" placeholder="Disabled">
+                    </fieldset>
+                  </div>
+                </div>
+                <hr>
+                <div class="form-group">
+                  <label for="inputPlaceholder" class="col-md-2 control-label">Placeholder</label>
+                  <div class="col-md-10">
+                    <input type="text" class="form-control" id="inputPlaceholde" placeholder="Placeholder">
+                  </div>
+                </div>
+                <hr>
+                <div class="form-group">
+                  <label for="inputPassword" class="col-md-2 control-label">Password</label>
+                  <div class="col-md-10">
+                    <input type="password" class="form-control" id="inputPassword" placeholder="this is focusedPassword">
+                  </div>
+                </div>
+                <hr>
+                <div class="form-group">
+                  <label class="col-md-2 control-label">Static Control</label>
+                  <div class="col-md-10">
+                    <p class="form-control-static">email@example.com</p>
+                  </div>
+                </div>
+              </form>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-12">
+          <div class="panel">
+            <div class="panel-body">
+              <h4><i class="fa fa-angle-right"></i>Inline Form</h4>
+              <form class="form-inline">
+                <div class="form-group">
+                  <input type="email" class="form-control" placeholder="Enter Mail">
+                </div>
+                <div class="form-group">
+                  <input type="password" class="form-control" placeholder="Enter Password">
+                </div>
+                <button type="submit" class="btn btn-info">Sign In</button>
+              </form>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-12">
+          <div class="panel">
+            <div class="panel-body">
+              <h4><i class="fa fa-angle-right"></i>Input Messages</h4>
+              <form class="form-horizontal">
+                <div class="form-group has-success">
+                  <label for="msgSuccess" class="col-md-2 control-label">Input with success</label>
+                  <div class="col-md-10">
+                    <input type="text" class="form-control" id="msgSuccess">
+                  </div>
+                </div>
+                <div class="form-group has-warning">
+                  <label for="msgWarning" class="col-md-2 control-label">Input with Warning</label>
+                  <div class="col-md-10">
+                    <input type="text" class="form-control" id="msgWarning">
+                  </div>
+                </div>
+                <div class="form-group has-error">
+                  <label for="msgDanger" class="col-md-2 control-label">Input with Error</label>
+                  <div class="col-md-10">
+                    <input type="text" class="form-control" id="msgDanger">
+                  </div>
+                </div>
+              </form>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-12">
+          <div class="panel">
+            <div class="panel-body">
+              <h4><i class="fa fa-angle-right"></i>Checkboxes,Radios & Select</h4>
+              <form>
+                <div class="checkbox">
+                  <label>
+                    <input type="checkbox">Option one is this and include..
+                  </label>
+                </div>
+                <div class="radio">
+                  <label>
+                    <input type="radio" name="optionRadios" id="optionRadios1" value="radio1">Option two is this and include...
+                  </label>
+                </div>
+                <div class="radio">
+                  <label>
+                    <input type="radio" name="optionRadios"name="optionRadios2" value="radio2">Option three is this and include...
+                  </label>
+                </div>
+                <hr>
+                <label class="checkbox-inline">
+                  <input type="checkbox" id="inlineCheckbox1" value="option1"> 1
+                </label>
+                <label class="checkbox-inline">
+                  <input type="checkbox" id="inlineCheckbox2" value="option2"> 2
+                </label>
+                <label class="checkbox-inline">
+                  <input type="checkbox" id="inlineCheckbox3" value="option3"> 3
+                </label>
+                <hr>
+                <select class="form-control">
+                  <option>1</option>
+                  <option>2</option>
+                  <option>3</option>
+                  <option>4</option>
+                  <option>5</option>
+                </select>
+                <br>
+                <select multiple class="form-control">
+                  <option>1</option>
+                  <option>2</option>
+                  <option>3</option>
+                  <option>4</option>
+                  <option>5</option>
+                </select>
+              </form>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-12">
+          <div class="panel">
+            <div class="panel-body">
+              <h4><i class="fa fa-angle-right"></i>Custom Toggles</h4>
+              <form class="form-horizontal">
+                <div class="row">
+                  <div class="col-sm-6 text-center">
+                  </div>
+                  <div class="col-sm-6 text-center">
+                  </div>
+                </div>
+              </form>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</body>
 </html>
